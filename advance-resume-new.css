@@ -1,0 +1,245 @@
+<style>
+
+@media screen and (max-width:1200px){
+    .container{
+        flex-direction: column;
+    }
+    .col{
+        flex:1;
+        max-width: 100%;
+    }
+}
+
+body {
+    margin:0;
+}
+.container {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    flex-wrap:wrap;
+    min-height: 400px;
+    
+}
+
+.row-header {
+    display: flex;
+    min-height: 90px;
+    background-color: rgb(77, 22, 132); 
+    width: 100%;   
+}
+.row-content {
+    display: flex;
+    min-height: 400px;
+    background-color: rgb(248,249,251);
+}
+.row-footer{
+    display: flex;
+    align-items: center;
+    color: rgb(186,118,212);
+    width: ;
+}
+.colum-left-content {
+    display: flex;
+    background-color: rgb(255,255,255);
+    width: 40%;
+}
+.colum-left-content-container{
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.social-link{
+    display: flex;
+    flex-direction: row;
+    background-color:none;
+    height: 50px;
+    width: 280px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.social-element{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.avatar-content{
+    border: rgb(246,246,246);
+} 
+ p.intro{
+    font-size:larger;
+    color: rgb(154,159,177);
+    margin-bottom: 30px;
+}
+p.format{
+    letter-spacing: 2px;
+    font-size: smaller;
+    margin-top: -10px;
+}
+p{
+    color: rgb(146,131,131);   
+}   
+.passion-detail{
+    display: flex;
+    background-color:rgb(235,235,235);
+    display: flex;
+    height: 6px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: -8px;
+
+}
+.percent{
+    width: 90%;
+    border-radius: 4px;
+    background-color: blue;
+}
+.remain{
+    flex:1;   
+}
+ h1{
+    font-size: 60px;
+    margin-bottom:-20px;
+}
+.colum-right-content{
+    display: flex;
+    flex: 1;
+}
+.colum-left-avatar{
+}        
+.row-footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(110,20,201);
+    color: white;
+}
+.colum-left {
+    display: flex;
+    background-color: rgb(110, 20, 201);
+    width: 40%;
+}
+
+.colum-right {
+    display: flex;
+    flex: 1;
+}
+
+.line-bullet1{
+    width: 1px;
+    height: 94px;
+    background-color: blue;
+    margin-left: 15px;
+}
+.line-bullet2{
+    width: 1px;
+    height: 114px;
+    background-color: blue;
+    margin-left: 15px;
+}
+.colum-right-description{
+    background-color:none;
+}
+.colum-right-description-container{
+    margin-top:80px;
+    margin-left:80px;
+    margin-right:80px;
+}
+.line{
+    height:8px;
+    width: 30px;
+    background-color: rgb(110,20,201);
+    border-radius: 5px;
+    margin-bottom: -15px;
+    margin-top: 80px;
+}
+h3{
+    margin-top: 80px;  
+}
+.row-education{
+    display: flex;
+    background-color:;
+    margin-left: -50px;
+}
+.row-education-bullet{
+    display: flex;
+    flex:1;
+    background-color:;
+    margin-top: 78px;
+    justify-content: flex-end;
+}
+.row-education-description{
+    flex:9;
+    background-color: ;
+}
+.ul-image{
+    display: flex;
+    list-style-type: none;
+    transition-duration:2s;
+    transition-delay: 2s;
+}
+.ul-image li:hover{
+    background-color:aqua;
+}
+ul {
+    margin-left: -40px;
+    color: rgb(131,131,161);
+}
+.colum-left-icon {
+    display: flex;
+    align-items: center;
+    background-color: ;
+    width: 8%;
+    margin-left: 15px;
+}
+.colum-left-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ;
+    flex: 1;
+}
+.colum-left-description-container {
+    font-size: 12px;
+    color: white;
+    letter-spacing: 2px;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing:1px;
+}
+a:hover {
+    color:yellow;
+    text-decoration: underline;
+}
+.colum-right-container {
+    display: flex;
+}
+.colum-right-empty{
+    width: 75%;
+}
+.colum-right-button{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(110, 20, 201);
+    color: white;
+    border-radius: 3px;
+}
+footer{
+    width: 100%;
+}
+</style>
